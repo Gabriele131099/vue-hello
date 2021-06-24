@@ -14,10 +14,12 @@
         <!-- message è il collegmento per sovvrascrivere l'h1 -->
         <h1>{{ message }}</h1> 
         <input v-model="text" name="" id="">
-        <h1>{{ text }}</h1>
-        <!-- caricamento di un img -->
+        <h1>Il tuo messaggi è: {{ text }}</h1>
+        <!-- caricamento di un img, il v-bind: si può contrarre con solo i ':'-->
         <img v-bind:src="img" alt=""> 
-
+        <ul>
+            <li v-for></li>
+        </ul>
     </div>    
     <script src="./script.js"></script>
 </body>
